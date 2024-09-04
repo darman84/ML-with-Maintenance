@@ -1,0 +1,35 @@
+# Directories to ignore
+checkpoints/
+lightning_logs/
+pytorch_env/
+tb_logs/
+
+# Large CSV files
+Austin_Crash_Report_Data_-_Crash_Level_Records_20240809.csv
+austin_traffic_data.csv
+Bluetooth_Travel_Sensors_-Traffic_Match_Summary_Records__TMSR__20240816.csv
+
+# Excel files
+*.xlsx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
